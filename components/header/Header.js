@@ -1,5 +1,5 @@
 import styles from './Header.module.css'
 
-export default function Header({ }) {
-  return <h1 className={[styles.header, "fade"].join(" ")}>SmartController.js</h1>
+export default function Header({title}) {
+  return <h1 className={[styles.header, "fade"].join(" ")}>{title}</h1>
 }
